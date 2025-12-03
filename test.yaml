@@ -1,0 +1,9 @@
+---
+- name: Simple semaphore test playbook
+  hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: Print a hello message
+      debug:
+        msg: "Semaphore test successful!"
